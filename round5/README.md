@@ -225,11 +225,11 @@ The base optimal portfolio offered the best tradeoff between expected PnL and do
 We managed to secure the **3rd best submission** for this round.
 
 <p align="center">
-  <img src="images/round5_results.png" alt="Round 5 Results" width="700"/>
+  <img src="images/round5_ranking.png" alt="Round 5 Ranking" width="700"/>
 </p>
 
 <p align="center">
-  <img src="images/round5_ranking.png" alt="Round 5 Ranking" width="700"/>
+  <img src="images/round5_results.png" alt="Round 5 Results" width="700"/>
 </p>
 
 We got every single direction call right (5/5 on traded products) and scored a total PnL of **+129,454 SeaShells**.

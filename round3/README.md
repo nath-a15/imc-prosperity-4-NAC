@@ -131,6 +131,6 @@ Both us and #1 bid $b_2$ = 861, both above the average of 859, so neither got pe
 
 Per price point, both strategies give identical profit (4201). But the counterparties aren't evenly distributed across price points. It's random. This is something we simply regarded as noise. By bidding 766 instead of 761, we moved the pods at the 765 reserve price from bid 2 (earning 59 each) to bid 1 (earning 154 each). That sounds good, but it turns out there were only about 15 counterparties at 765, while other price points in the $b_2$ range had more. The uneven distribution slightly favored their split over ours.
 
-The gap is only 340 though. Essentially noise from the random counterparty allocation. Our $b_1$ adjustment to 766 was the right insurance play, it just happened to cost us a tiny amount because we didn't need the insurance (the average landed below our $b_2$).
+The gap is only 340 though. Essentially noise from the random counterparty allocation. Our $b_1$ adjustment to 766 was designed to be free insurance: with evenly distributed counterparties, both (761, 861) and (766, 861) yield the exact same profit when the average lands at or below 861. The only reason it "cost" us anything is the randomness in how many counterparties sat at each price point.
 
 Looking back, we are still happy we took the extra insurance even though it didn't end up paying off.

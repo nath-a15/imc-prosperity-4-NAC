@@ -102,11 +102,11 @@ We then adjusted $b_1$ from 761 to **766**. Our conservative case put the averag
 We ended up ranking **4th** in this round with a PnL of **+80,862 XIRECs**.
 
 <p align="center">
-  <img src="images/round3_results.png" alt="Round 3 Results" width="700"/>
+  <img src="images/round3_ranking.png" alt="Round 3 Ranking" width="700"/>
 </p>
 
 <p align="center">
-  <img src="images/round3_ranking.png" alt="Round 3 Ranking" width="700"/>
+  <img src="images/round3_results.png" alt="Round 3 Results" width="700"/>
 </p>
 
 Here is the distribution of player bids:

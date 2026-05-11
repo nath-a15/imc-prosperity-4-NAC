@@ -239,16 +239,16 @@ The actual returns for each product were as follows, compared to our base predic
 | Product | Actual Return | Our Prediction | Error |
 |---------|--------------|----------------|-------|
 | Lava Cake | −63.35% | −65.0% | 1.65% |
-| Thermalite Core | +22.16% | +22.0% | 0.16% |
-| Pyroflex Cells | −19.53% | −16.0% | 3.53% |
+| Thermalite Core | +22.16% | +20.0% | 2.16% |
+| Pyroflex Cells | −19.53% | −15.0% | 4.53% |
 | Sulfur Reactor | +17.42% | +15.0% | 2.42% |
-| Obsidian Cutlery | +9.92% | +5.0% | 4.92% |
-| Volcanic Incense | −14.57% | −2.0% | 12.57% |
-| Ashes of the Phoenix | −3.50% | −3.0% | 0.50% |
+| Obsidian Cutlery | +9.92% | +3.0% | 6.92% |
+| Volcanic Incense | −14.57% | 0.0% | 14.57% |
+| Ashes of the Phoenix | −3.50% | 0.0% | 3.50% |
 | Magma Ink | +2.23% | 0.0% | 2.23% |
 | Scoria Paste | N/A | 0.0% | N/A |
 
-Our predictions were remarkably close on the high-conviction products: Lava Cake was off by just 1.65%, Thermalite by 0.16%, and Sulfur by 2.42%. The biggest miss was Volcanic Incense, which we classified as pump-and-dump noise and allocated 0% to. It actually dropped 14.57%, meaning a 7% sell would have added another +5,299 to our PnL.
+Our predictions were remarkably close on the high-conviction products: Lava Cake was off by just 1.65%, Thermalite by 2.16%, and Sulfur by 2.42%. The biggest miss was Volcanic Incense, which we classified as pump-and-dump noise and allocated 0% to. It actually dropped 14.57%, meaning a 7% sell would have added another +5,299 to our PnL.
 
 The theoretical best submission with perfect foresight across all products would have yielded **+137,886 SeaShells**. We captured **93.9%** of that maximum, leaving only 8,449 SeaShells on the table. The main sources of that gap were Volcanic Incense (5,299 missed), Obsidian Cutlery undersized at 1% instead of 5% (1,568 missed), and Pyroflex slightly undersized at 7% instead of 10% (759 missed). Our Lava Cake sizing at 32% was exactly optimal.
 

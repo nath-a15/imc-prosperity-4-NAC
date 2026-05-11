@@ -91,7 +91,9 @@ We modeled three distributions of player second bids based on our reasoning abou
 | 900 | 1.5% |
 | 920 | 1% |
 
-Across all three scenarios the optimal sweet spot was either **(761, 851)** or **(761, 861)**. Since two out of three cases pointed to 861, and the downside of bidding 861 when the average was actually 851 was minimal compared to bidding 851 when the average was 859, we submitted **(761, 861)**.
+For each estimated average, we ran a grid search over all valid ($b_1$, $b_2$) pairs to find the profit maximizing submission. Since $b_2$ only matters at sweet spots when above average, we compared the best sweet spot candidates for each case. At avg = 851 (aggressive), the optimal sweet spot was (761, 851) with a profit of 4260 per price point. At avg = 857 (base) and avg = 859 (conservative), the optimal sweet spot was (761, 861) at 4201 per price point. We also verified that non sweet spot bids like (761, 857) could technically score slightly higher at the exact estimated average, but any uncertainty in the estimate made sweet spots strictly better.
+
+Since two out of three cases pointed to 861, and the downside of bidding 861 when the average was actually 851 was minimal compared to bidding 851 when the average was 859, we submitted **(761, 861)**.
 
 We then adjusted $b_1$ from 761 to **766**. Our conservative case put the average at 859, close enough to 861 that there was a real chance the average could land just above our $b_2$. When the average exceeds 861, bid 2 pods get penalized, making them worth less. In that scenario a higher $b_1$ is better because it shifts more pods to bid 1 where there's no penalty. At (761, 861) vs (766, 861) the profit is identical when the average is at or below 861, but if the average overshoots to 865 or higher, 766 recovers an extra 11 to 23. There's no downside to 766, only upside in the tail.
 
